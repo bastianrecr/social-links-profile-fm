@@ -1,0 +1,100 @@
+@import url("../vendor/normalize.css");
+
+.page {
+  margin: 0 auto;
+  padding: 174.5px 0;
+  font-family: "Inter";
+  color: hsl(0, 0%, 100%);
+  background-color: #141414;
+  max-width: 1440px;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 384px;
+  margin: 0 auto;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 40px;
+}
+
+.card__avatar {
+  border-radius: 50%;
+  width: 88px;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+.card__location {
+  margin: 0;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  color: hsl(75, 94%, 57%);
+}
+
+.card__user-main-information {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.card__bio {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.social-links {
+  padding: 0;
+  margin: 0;
+  width: 304px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.social-links__link {
+  width: 100%;
+}
+
+.social-links__link-button {
+  box-sizing: border-box;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: hsl(0, 0%, 20%);
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  display: block;
+  width: 100%;
+  justify-self: center;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.social-links__link-button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: #333333;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
