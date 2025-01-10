@@ -6,12 +6,11 @@
   font-family: "Inter";
   color: hsl(0, 0%, 100%);
   background-color: #141414;
-  max-width: 1440px;
 }
 
 .card {
   box-sizing: border-box;
-  width: 384px;
+  width: 26.667%;
   margin: 0 auto;
   background-color: #1f1f1f;
   border-radius: 12px;
@@ -57,9 +56,10 @@
 }
 
 .social-links {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
-  width: 304px;
+  width: 100%;
   list-style-type: none;
   display: flex;
   flex-direction: column;
@@ -97,4 +97,16 @@
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 572px) and (max-width: 1104px) {
+  .page {
+    padding: 206.5px 0;
+  }
+  .card {
+    width: 59.375%;
+  }
+}
+
+@media screen and (max-width: 571px) {
 }
