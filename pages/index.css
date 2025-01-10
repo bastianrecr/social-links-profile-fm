@@ -109,4 +109,11 @@
 }
 
 @media screen and (max-width: 571px) {
+  .page {
+    padding: 116.5px 0;
+  }
+  .card {
+    padding: 24px;
+    width: 87.2%;
+  }
 }
