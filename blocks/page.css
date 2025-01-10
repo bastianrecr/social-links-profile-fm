@@ -1,0 +1,19 @@
+.page {
+  margin: 0 auto;
+  padding: 174.5px 0;
+  font-family: "Inter";
+  color: hsl(0, 0%, 100%);
+  background-color: #141414;
+}
+
+@media screen and (min-width: 572px) and (max-width: 1104px) {
+  .page {
+    padding: 206.5px 0;
+  }
+}
+
+@media screen and (max-width: 571px) {
+  .page {
+    padding: 116.5px 0;
+  }
+}
