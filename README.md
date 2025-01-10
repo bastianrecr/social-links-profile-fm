@@ -39,8 +39,8 @@ The design needed to be fully responsive and accessible on various screen sizes.
 
 ### Links
 
-- Solution URL: [Add solution link here](#)
-- Live Site URL: [Add live site URL here](#)
+- Solution URL: [Add solution link here](https://github.com/bastianrecr/social-links-profile-fm)
+- Live Site URL: [Add live site URL here](https://bastianrecr.github.io/social-links-profile-fm/)
 
 ## My process
 
