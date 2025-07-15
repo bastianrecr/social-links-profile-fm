@@ -1,7 +1,3 @@
-The README file has been updated to reflect the new font import in your `index.css`. Here is the revised version:
-
----
-
 # Frontend Mentor - Social links profile solution
 
 This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
