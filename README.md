@@ -1,18 +1,22 @@
-# Frontend Mentor - Social links profile solution
+# Frontend Mentor - Social Links Profile (Refactored Component) Solution
 
 This is a solution to the [Social links profile challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
 - [Overview](#overview)
+
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
   - [Links](#links)
+
 - [My process](#my-process)
+
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
+
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -20,14 +24,13 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### The challenge
 
-The challenge was to build a static profile card page that includes:
+The challenge was to build a clean and responsive profile card that includes:
 
 - A user avatar
-- Main information such as the user's name and location
-- A short bio
-- Links to the user's social profiles
+- The user's name, location, and a short bio
+- A list of social media links
 
-The design needed to be fully responsive and accessible on various screen sizes.
+In this refactored version, all elements related to the social links card were grouped into a single reusable component, making it easier to integrate into larger projects.
 
 ### Screenshot
 
@@ -42,41 +45,40 @@ The design needed to be fully responsive and accessible on various screen sizes.
 
 ### Built with
 
-- Semantic HTML5 markup
-- CSS for styling and layout
-- [BEM](https://getbem.com/) methodology for class naming
-- CSS modularization for better maintainability
-- Normalize.css for consistent styling across browsers
-- Media queries for a responsive design
+- Semantic HTML5
+- Modular CSS (structured with BEM methodology)
+- Normalize.css
+- CSS media queries for responsiveness
+- Reusable component structure for scalability
 
 ### What I learned
 
-This project allowed me to:
+Through this refactor, I improved my understanding of:
 
-- Improve my understanding of BEM and how it simplifies CSS organization
-- Practice creating responsive designs using media queries
-- Gain experience in importing and utilizing custom web fonts
-- Work on structuring reusable blocks for better scalability
+- Component-based thinking in HTML/CSS projects
+- BEM methodology to improve clarity and reusability
+- Structuring code for future scalability
+- Creating visually consistent components that can be reused across projects
 
 ### Continued development
 
-I want to continue focusing on:
+I plan to continue:
 
-- Enhancing the accessibility of my projects by ensuring ARIA roles are properly applied
-- Experimenting with advanced layout techniques using CSS Grid and Flexbox
-- Improving the responsiveness of my designs, especially for larger screens
+- Enhancing this component for integration into React projects
+- Exploring how to use CSS custom properties for theming
+- Building a full design system with more reusable components
 
 ### Useful resources
 
-- [BEM Documentation](https://getbem.com/) - Helped me organize my CSS effectively.
-- [MDN Web Docs](https://developer.mozilla.org/) - Provided excellent references for HTML and CSS.
-- [Normalize.css](https://necolas.github.io/normalize.css/) - Ensured consistent styling across browsers.
+- [BEM Methodology](https://getbem.com/)
+- [MDN Web Docs](https://developer.mozilla.org/)
+- [Normalize.css](https://necolas.github.io/normalize.css/)
 
 ## Author
 
 - Frontend Mentor - [@bastianrecr](https://www.frontendmentor.io/profile/bastianrecr)
-- LinkedIn - [Sebastian Regules](www.linkedin.com/in/sebastian-regules-763b5624b)
+- LinkedIn - [Sebastian Regules](https://www.linkedin.com/in/sebastian-regules-763b5624b)
 
 ## Acknowledgments
 
-Special thanks to Frontend Mentor for providing challenging and fun projects that help improve coding skills. This challenge was a great opportunity to refine my CSS, responsive design techniques, and font integration strategies.
+Thanks to Frontend Mentor for the inspiration and to the developers in the community who share their reusable design patterns and component structuring tips.
