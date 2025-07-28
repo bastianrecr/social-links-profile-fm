@@ -4,8 +4,6 @@
 
 @import url("../blocks/page.css");
 
-@import url("../blocks/card.css");
-
-@import url("../blocks/social-links.css");
+@import url("../blocks/social-links-card.css");
 
 @import url("../blocks/attribution.css");
